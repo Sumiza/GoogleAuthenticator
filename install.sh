@@ -6,3 +6,4 @@ sed -i '/ChallengeResponseAuthentication yes/c\ChallengeResponseAuthentication y
 sed -i '/ChallengeResponseAuthentication no/c\#ChallengeResponseAuthentication no' /etc/ssh/sshd_config
 systemctl restart sshd
 echo "-Please copy down the emergency codes and test login with another terminal window before logging out-"
+AUTHS
